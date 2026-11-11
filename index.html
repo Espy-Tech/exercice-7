@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Природа вокруг нас — галерея</title>
+  <script src="jquery-3.4.1.min.js"></script>
+  <script src="my.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="page-header">
+    <h1>Природа вокруг нас</h1>
+    <p>Леса, горы, озёра, цветы и побережья</p>
+  </header>
+
+  <main>
+    <div class="gallery-container">
+      <section class="gallery" aria-label="Галерея изображений природы">
+        <div class="gallery-viewport">
+          <div class="gallery-track">
+            <article class="slide">
+              <img src="images/forest-canopy.jpg" alt="Высокие хвойные деревья в густом лесу" width="1200" height="800" loading="lazy">
+              <div class="slide-caption">Хвойный лес</div>
+            </article>
+            <article class="slide">
+              <img src="images/rolling-hills.jpg" alt="Зелёные холмы под облачным небом" width="1200" height="800" loading="lazy">
+              <div class="slide-caption">Зелёные холмы</div>
+            </article>
+            <article class="slide">
+              <img src="images/autumn-forest.jpg" alt="Красные и оранжевые листья осеннего леса" width="1200" height="800" loading="lazy">
+              <div class="slide-caption">Осенний лес</div>
+            </article>
+            <article class="slide">
+              <img src="images/forest-waterfall.jpg" alt="Водопад среди зелёных деревьев" width="1200" height="800" loading="lazy">
+              <div class="slide-caption">Лесной водопад</div>
+            </article>
+            <article class="slide">
+              <img src="images/ocean-cliffs.jpg" alt="Зелёные скалы над океаном" width="1200" height="800" loading="lazy">
+              <div class="slide-caption">Скалистое побережье</div>
+            </article>
+            <article class="slide">
+              <img src="images/wildflower-meadow.jpg" alt="Цветы на летнем лугу под голубым небом" width="1200" height="800" loading="lazy">
+              <div class="slide-caption">Цветущий луг</div>
+            </article>
+            <article class="slide">
+              <img src="images/desert-dunes.jpg" alt="Золотые песчаные дюны" width="1200" height="800" loading="lazy">
+              <div class="slide-caption">Песчаные дюны</div>
+            </article>
+            <article class="slide">
+              <img src="images/alpine-lake.jpg" alt="Бирюзовое горное озеро у заснеженных вершин" width="1200" height="800" loading="lazy">
+              <div class="slide-caption">Альпийское озеро</div>
+            </article>
+          </div>
+        </div>
+
+        <div class="gallery-controls">
+          <button class="nav-btn prev" type="button" aria-label="Предыдущая страница">&#10094;</button>
+          <button class="nav-btn next" type="button" aria-label="Следующая страница">&#10095;</button>
+        </div>
+      </section>
+
+      <nav class="pagination" aria-label="Страницы галереи">
+        <div class="pagination-dots"></div>
+      </nav>
+    </div>
+  </main>
+
+  <footer class="page-footer">ГАЛЕРЕЯ ПРИРОДЫ · 2026</footer>
+</body>
+</html>
